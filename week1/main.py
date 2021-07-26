@@ -39,6 +39,9 @@ dev_1.apply_raise()
 # print(dev_1.prog_lang)
 
 mgr_1 = Manager("Andy","Lee",1000000,[dev_1,dev_2])
+mgr_2 = Manager("pei","pei",100,[dev_1,dev_2])
 
 print(issubclass(Manager,Employee))
 print(isinstance(mgr_1,Manager))
+print(isinstance(mgr_2,Manager))
+print("hi")
